@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="39.393" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jayanthhr/Downloads/SampleBackendAutomation/target/test-classes:/Users/jayanthhr/Downloads/SampleBackendAutomation/target/classes:/Users/jayanthhr/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:/Users/jayanthhr/.m2/repository/org/json/json/20241224/json-20241224.jar:/Users/jayanthhr/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.3/log4j-core-2.24.3.jar:/Users/jayanthhr/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/jayanthhr/.m2/repository/org/testng/testng/7.5.1/testng-7.5.1.jar:/Users/jayanthhr/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/jayanthhr/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/jayanthhr/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/jayanthhr/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/jayanthhr/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/jayanthhr/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/jayanthhr/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.18.2/jackson-dataformat-csv-2.18.2.jar:/Users/jayanthhr/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/jayanthhr/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/jayanthhr/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/jayanthhr/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/jayanthhr/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/jayanthhr/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/jayanthhr/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/jayanthhr/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/jayanthhr/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/jayanthhr/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/jayanthhr/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jayanthhr/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/jayanthhr/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/jayanthhr/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/jayanthhr/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/jayanthhr/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/jayanthhr/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/jayanthhr/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/jayanthhr/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/jayanthhr/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/jayanthhr/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/jayanthhr/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/jayanthhr/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/jayanthhr/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Users/jayanthhr/Library/Java/JavaVirtualMachines/temurin-18.0.2.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jayanthhr/Downloads/SampleBackendAutomation/target/surefire/surefirebooter4599653570795819920.jar /Users/jayanthhr/Downloads/SampleBackendAutomation/target/surefire 2025-12-17T16-21-32_205-jvmRun1 surefire12633759643775884874tmp surefire_07514449129174042825tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jayanthhr/Downloads/SampleBackendAutomation/target/test-classes:/Users/jayanthhr/Downloads/SampleBackendAutomation/target/classes:/Users/jayanthhr/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:/Users/jayanthhr/.m2/repository/org/json/json/20241224/json-20241224.jar:/Users/jayanthhr/.m2/repository/org/apache/logging/log4j/log4j-core/2.24.3/log4j-core-2.24.3.jar:/Users/jayanthhr/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/Users/jayanthhr/.m2/repository/org/testng/testng/7.5.1/testng-7.5.1.jar:/Users/jayanthhr/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/jayanthhr/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/jayanthhr/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/jayanthhr/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.2/jackson-databind-2.18.2.jar:/Users/jayanthhr/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.2/jackson-annotations-2.18.2.jar:/Users/jayanthhr/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.2/jackson-core-2.18.2.jar:/Users/jayanthhr/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-csv/2.18.2/jackson-dataformat-csv-2.18.2.jar:/Users/jayanthhr/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/jayanthhr/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/jayanthhr/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/jayanthhr/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/jayanthhr/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/jayanthhr/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/jayanthhr/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/jayanthhr/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/jayanthhr/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/jayanthhr/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/jayanthhr/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jayanthhr/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/jayanthhr/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/jayanthhr/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/jayanthhr/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/jayanthhr/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/jayanthhr/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/jayanthhr/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/jayanthhr/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/jayanthhr/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/jayanthhr/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/jayanthhr/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/jayanthhr/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/jayanthhr/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jayanthhr"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/Users/jayanthhr/Library/Java/JavaVirtualMachines/temurin-18.0.2.1/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jayanthhr/Downloads/SampleBackendAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/jayanthhr/Downloads/SampleBackendAutomation/target/surefire/surefirebooter4599653570795819920.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2.1+1"/>
+    <property name="user.name" value="jayanthhr"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="testngXmlFile" value="src/test/resources/suiteFiles/testng.xml"/>
+    <property name="java.vendor.version" value="Temurin-18.0.2.1+1"/>
+    <property name="localRepository" value="/Users/jayanthhr/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/tj/f7xg9n2n34v63th2296p54jw0000gp/T/"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="/Users/jayanthhr/Downloads/SampleBackendAutomation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env" value="qa"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jayanthhr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="18.0.2.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testAddPet" classname="swaggerpetstore.testcases.PetTestCase" time="2.664"/>
+  <testcase name="testGetPetById" classname="swaggerpetstore.testcases.PetTestCase" time="1.544"/>
+  <testcase name="testUpdatePetById" classname="swaggerpetstore.testcases.PetTestCase" time="1.301"/>
+  <testcase name="testDeletePetById" classname="swaggerpetstore.testcases.PetTestCase" time="1.168"/>
+  <testcase name="testAddOrder" classname="swaggerpetstore.testcases.PetTestCase" time="1.576"/>
+  <testcase name="testGetOrderById" classname="swaggerpetstore.testcases.PetTestCase" time="1.427"/>
+  <testcase name="testDeleteOrderById" classname="swaggerpetstore.testcases.PetTestCase" time="1.506"/>
+</testsuite>

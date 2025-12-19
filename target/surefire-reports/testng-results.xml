@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-17T16:21:37 IST" name="All Test Suite" finished-at="2025-12-17T16:22:06 IST" duration-ms="28810">
+    <groups>
+    </groups>
+    <test started-at="2025-12-17T16:21:37 IST" name="Test Swagger Pet store" finished-at="2025-12-17T16:22:06 IST" duration-ms="28810">
+      <class name="swaggerpetstore.testcases.PetTestCase">
+        <test-method is-config="true" signature="initiateData()[pri:0, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:37 IST" name="initiateData" finished-at="2025-12-17T16:21:37 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateData -->
+        <test-method is-config="true" signature="delayBeforeTest()[pri:0, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:37 IST" name="delayBeforeTest" finished-at="2025-12-17T16:21:40 IST" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayBeforeTest -->
+        <test-method signature="testAddPet()[pri:0, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:40 IST" name="testAddPet" description="Test to add a new pet" finished-at="2025-12-17T16:21:43 IST" duration-ms="2663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddPet -->
+        <test-method is-config="true" signature="delayBeforeTest()[pri:0, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:43 IST" name="delayBeforeTest" finished-at="2025-12-17T16:21:45 IST" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayBeforeTest -->
+        <test-method signature="testGetPetById()[pri:1, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:45 IST" name="testGetPetById" description="Test to get a pet by ID" finished-at="2025-12-17T16:21:47 IST" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPetById -->
+        <test-method is-config="true" signature="delayBeforeTest()[pri:0, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:47 IST" name="delayBeforeTest" finished-at="2025-12-17T16:21:49 IST" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayBeforeTest -->
+        <test-method signature="testUpdatePetById()[pri:2, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:49 IST" name="testUpdatePetById" description="Test to update a pet by ID" finished-at="2025-12-17T16:21:50 IST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePetById -->
+        <test-method is-config="true" signature="delayBeforeTest()[pri:0, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:50 IST" name="delayBeforeTest" finished-at="2025-12-17T16:21:53 IST" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayBeforeTest -->
+        <test-method signature="testDeletePetById()[pri:3, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:53 IST" name="testDeletePetById" description="Test to delete a pet by ID" finished-at="2025-12-17T16:21:54 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePetById -->
+        <test-method is-config="true" signature="delayBeforeTest()[pri:0, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:54 IST" name="delayBeforeTest" finished-at="2025-12-17T16:21:57 IST" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayBeforeTest -->
+        <test-method signature="testAddOrder()[pri:4, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:57 IST" name="testAddOrder" description="Test is to create new order in the store by providing necessary details" finished-at="2025-12-17T16:21:58 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddOrder -->
+        <test-method is-config="true" signature="delayBeforeTest()[pri:0, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:21:58 IST" name="delayBeforeTest" finished-at="2025-12-17T16:22:01 IST" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayBeforeTest -->
+        <test-method signature="testGetOrderById()[pri:5, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:22:01 IST" name="testGetOrderById" description="Test to get a order details from store module by it&#039;s unique order id" finished-at="2025-12-17T16:22:02 IST" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOrderById -->
+        <test-method is-config="true" signature="delayBeforeTest()[pri:0, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:22:02 IST" name="delayBeforeTest" finished-at="2025-12-17T16:22:05 IST" duration-ms="2506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delayBeforeTest -->
+        <test-method signature="testDeleteOrderById()[pri:6, instance:swaggerpetstore.testcases.PetTestCase@53f0a4cb]" started-at="2025-12-17T16:22:05 IST" name="testDeleteOrderById" description="Test to delete an order from store module by it&#039;s unique order id" finished-at="2025-12-17T16:22:06 IST" duration-ms="1506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteOrderById -->
+      </class> <!-- swaggerpetstore.testcases.PetTestCase -->
+    </test> <!-- Test Swagger Pet store -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
