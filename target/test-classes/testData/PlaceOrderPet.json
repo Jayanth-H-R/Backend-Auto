@@ -1,0 +1,10 @@
+{
+  "qa": {
+    "id": 0,
+    "petId": 0,
+    "quantity": 0,
+    "shipDate": "2025-11-14T05:04:19.884Z",
+    "status": "placed",
+    "complete": true
+  }
+}
